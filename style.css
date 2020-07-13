@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    padding: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#name path:nth-child(1){
+    stroke-dasharray: 349.95px;
+    stroke-dashoffset: 349.95px;
+    animation: unfold 1s ease forwards;
+}
+
+#name path:nth-child(2){
+    stroke-dasharray: 405.31px;
+    stroke-dashoffset: 405.31px;
+    animation: unfold 1s ease forwards 0.5s;
+}
+
+#name path:nth-child(3){
+    stroke-dasharray: 400px;
+    stroke-dashoffset: 400px;
+    animation: unfold 1s ease forwards 1s;
+}
+
+#name path:nth-child(4){
+    stroke-dasharray: 449.52px;
+    stroke-dashoffset: 449.52px;
+    animation: unfold 1s ease forwards 1.5s;
+}
+
+#name path:nth-child(5){
+    stroke-dasharray: 450px;
+    stroke-dashoffset: 450px;
+    animation: unfold 1s ease forwards 2s;
+}
+
+#name path:nth-child(6){
+    stroke-dasharray: 502.92px;
+    stroke-dashoffset: 502.92px;
+    animation: unfold 1s ease forwards 2.5s;
+}
+
+#name path:nth-child(7){
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: unfold 1s ease forwards 3s;
+}
+
+#name path:nth-child(8){
+    stroke-dasharray: 371.88px;
+    stroke-dashoffset: 371.88px;
+    animation: unfold 1s ease forwards 3.5s;
+}
+
+#name path:nth-child(9){
+    stroke-dasharray: 369.44px;
+    stroke-dashoffset: 369.44px;
+    animation: unfold 1s ease forwards 4s;
+}
+
+#name path:nth-child(10){
+    stroke-dasharray: 378.29px;
+    stroke-dashoffset: 378.29px;
+    animation: unfold 1s ease forwards 4.5s;
+}
+
+#name path:nth-child(11){
+    stroke-dasharray: 380px;
+    stroke-dashoffset: 380px;
+    animation: unfold 1s ease forwards 5s;
+}
+
+#name path:nth-child(12){
+    stroke-dasharray: 421.73px;
+    stroke-dashoffset: 421.73px;
+    animation: unfold 1s ease forwards 5.5s;
+}
+
+#name path:nth-child(13){
+    stroke-dasharray: 450px;
+    stroke-dashoffset: 450px;
+    animation: unfold 1s ease forwards 6s;
+}
+
+#name path:nth-child(14){
+    stroke-dasharray: 350px;
+    stroke-dashoffset: 350px;
+    animation: unfold 1s ease forwards 6.5s;
+}
+
+@keyframes unfold {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
